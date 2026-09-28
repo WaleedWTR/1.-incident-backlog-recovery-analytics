@@ -1,5 +1,7 @@
 # Incident Backlog Recovery Analytics
 
+![Backlog analytics tests](https://github.com/WaleedWTR/1.-incident-backlog-recovery-analytics/actions/workflows/tests.yml/badge.svg)
+
 A portfolio service-operations project for turning an aged incident backlog into a prioritised, measurable recovery plan.
 
 > **Portfolio note:** All tickets and performance data in this repository are synthetic. The method is informed by real backlog-recovery experience without publishing employer information.
@@ -44,6 +46,14 @@ Sustainable BAU
 ```bash
 python scripts/backlog_analysis.py
 ```
+
+## Key documentation
+
+- [Recovery plan](docs/recovery-plan.md)
+- [Daily backlog control](docs/daily-control.md)
+- [Governance model](docs/governance.md)
+- [Sample analysis](docs/sample-analysis.md)
+- [SQL backlog controls](sql/backlog-controls.sql)
 
 ## Skills demonstrated
 
